@@ -33,7 +33,7 @@ jobs:
             dist
             package.json
       - name: Upload Artifacts Node_modules
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: my-artifact
           path: |
