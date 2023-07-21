@@ -1,4 +1,4 @@
-name: Deploy website
+name: Artifacts Testing
 on: workflow_dispatch
 jobs:
   test:
