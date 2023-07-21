@@ -4,6 +4,10 @@ name: Deploy website
 #     branches:
 #       - master
 on: workflow_dispatch
+on:
+  push:
+    branches:
+      - master
 jobs:
   test:
     runs-on: ubuntu-latest
